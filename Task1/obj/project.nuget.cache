@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "25Qvu0NjK8afTb7tiVMyAvTYGMPpZdixkN4MVuQIJcaRuIy+uMuXhgGJ6WVgtYSCax4vsg21G9HzN0xtqleOwg==",
+  "dgSpecHash": "2V3cy2StFoYuxiB9XII1uxoorPaGFGLEU5BhtYckMGogSQ3qllZIdRpmaeNy0JLAYbAgCxKReMBPUOoLiau5Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anastasia\\source\\repos\\01m04s_Methods\\Task1\\Task1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Sophia\\Source\\Repos\\01module-04seminar-methodsandbitwiseoperators-jijumbeck\\Task1\\Task1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sophia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
