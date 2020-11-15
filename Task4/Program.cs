@@ -22,8 +22,45 @@ namespace Task4
     {
         // TODO: самостоятельно выделите и напишите методы, использующиеся для решения задачи
 
+        static double myPow(double x, int pow)
+        {
+            // TODO : Реализовать быстрое возведение в степень.
+            if (pow == 0)
+            {
+                return 1;
+            }
+            else if (pow % 2 == 0)
+            {
+                double g = myPow(x, pow / 2);
+                return g * g;
+            }
+            else
+            {
+                return x * myPow(x, pow - 1);
+            }
+        }
+
         static void Main(string[] args)
         {
+            try
+            {
+                int n, m;
+                bool check = true;
+                check &= int.TryParse(Console.ReadLine(), out n) && n >= 0;
+                check &= int.TryParse(Console.ReadLine(), out m) && m >= 0;
+                if (!check)
+                {
+                    Console.WriteLine("Ошибка");
+                }
+                else
+                {
+                    Console.WriteLine(myPow(2,n) + myPow(2,m));
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Переполнение");
+            }
         }
     }
 }
